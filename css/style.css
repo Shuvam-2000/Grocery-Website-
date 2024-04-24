@@ -1,0 +1,123 @@
+*{
+    font-family: poppins;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+
+/* Navbar */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    max-width: 1070px;
+    width: 100%;
+    margin: auto;
+    /* border-bottom: 2px solid #dadada; */
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li a{
+    padding: 3px 10px;
+    margin: 0 2vw;
+    color: #3b3b3b;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.logo{
+    font-size: 1.4rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #202020;
+}
+
+.logo span{
+    color: orange;
+}
+
+.right-nav{
+    display: flex;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+}
+
+.right-nav a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+}
+
+.right-nav .heart{
+    background-color: #fff0ee;
+    color: green;
+    border: 2px black solid;
+}
+
+.right-nav .heart:hover{
+    background-color: #202020;
+    color: white;
+    transition: all ease 0.3s;
+}
+
+.right-nav a span{
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+.right-nav .cart{
+    background-color: #fff0ee;
+    color: green;
+    border: 2px black solid;
+}
+
+.right-nav .cart:hover{
+    background-color: #202020;
+    color: white;
+    transition: all ease 0.3s;
+}
+
+.right-nav .heart span{
+    background-color: white;
+    border: 2px black solid;
+    color: black;
+}
+
+.right-nav .cart span{
+    background-color: white;
+    border: 2px black solid;
+    color: black;
+}
+
